@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">task1</string>
+    <string name="amEtWght">Enter your weight in kgs</string>
+    <string name="amEtHeight">Enter your height in metres</string>
+    <string name="amBtnEnter">Enter</string>
+    <string name="amTvBMI">Your BMI is :</string>
+</resources>
