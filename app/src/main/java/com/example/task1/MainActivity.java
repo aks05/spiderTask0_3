@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void calcBMI(View view) {
         if (etHeight.getText().length()==0 || etWght.getText().length()==0 ||
-            Integer.parseInt(etWght.getText().toString())==0 || Integer.parseInt(etHeight.getText().toString())==0) {
+            Float.parseFloat(etWght.getText().toString())==0 || Float.parseFloat(etHeight.getText().toString())==0) {
             Context context = getApplicationContext();
             CharSequence text = "Enter non-zero value";
             int duration = Toast.LENGTH_SHORT;
